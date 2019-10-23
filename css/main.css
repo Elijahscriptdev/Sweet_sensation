@@ -96,9 +96,15 @@ body {
 /* services */
 #services {
   min-height: 40vh;
-  background: url("https://res.cloudinary.com/elijjaaahhhh/image/upload/v1571850141/jason-leung-SruKcUtcpi8-unsplash_ktlkc5.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background: #ffffff;
+}
+
+.footer-section {
+  min-height: 10vh;
+  background: rgb(143, 140, 141);
+  display: flex;
+}
+
+.list ul li {
+  list-style-type: none;
 }
