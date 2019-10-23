@@ -78,23 +78,23 @@ body {
 
 /* store  section*/
 .search-box {
-    background: rgb(121, 47, 69);
+  background: rgb(121, 47, 69);
 }
 
 .store {
-    background: rgb(244, 244, 245);
+  background: rgb(244, 244, 245);
 }
 
 .single-item {
-    transition: all 0.3 linear;
+  transition: all 0.3 linear;
 }
 
 .single-item:hover {
-    box-shadow: 0 10px 15px rgb(0, 0, 0);
+  box-shadow: 0 10px 15px rgb(0, 0, 0);
 }
 
 /* services */
 #services {
-    min-height: 40vh;
-    background: white;
+  min-height: 40vh;
+  background: white;
 }
