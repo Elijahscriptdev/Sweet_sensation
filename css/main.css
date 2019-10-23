@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-toggler {
+  outline: none !important;
+}
+
+.toggle-icon {
+  color: rgb(121, 47, 69);
+  font-size: 3rem;
+}
+
+#header img {
+    width: 150px;
+}
+
+.nav-link {
+    color: rgb(121, 47, 69);
+    transition: all 1s ease-in-out;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link:hover {
+    color: rgb(10, 10, 10);
+}
+
+.cart-info_icon {
+    color: rgb(121, 47, 69);
+    cursor: pointer;
+}
+
+.cart-info {
+    border: 0.1rem solid rgb(51, 50, 50);
+    color: rgb(121, 47, 69);
+    padding: 0.5rem 0.6rem;
+    cursor: pointer;
+}
+
+.cart-info:hover {
+    border: none;
+    background: rgb(121, 47, 69);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.cart-info:hover .cart-info_icon { 
+    color: #ffffff;
+}
