@@ -19,6 +19,63 @@
   </head>
 
   <body>
+    <header id="header">
+      <nav class="navbar navbar-expand-lg px-4">
+        <a href="#" class="navbar-brand">
+          <img
+            src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1571822481/LogoSample_ByTailorBrands_kw4tbk.jpg"
+            alt="logo"
+          />
+        </a>
+        <!-- toggle button -->
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#myNavbar"
+          type="button"
+        >
+          <span class="toggle-icon">
+            <i class="fas fa-bars"></i>
+          </span>
+        </button>
+        <!-- toggle div -->
+        <div class="collapse navbar-collapse justify-content-end" id="myNavbar">
+          <ul class="navbar-nav text-capitalize mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#header">Home </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link " href="#about">About</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#store">store</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#services">services</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#order">order</a>
+            </li>
+          </ul>
+          <!-- cart button section -->
+          <div class="nav-info-items d-none d-lg-flex">
+            <div
+              id="cart-info"
+              class="nav-info mx-lg-5 align-items-center d-flex cart-info justify-content-between"
+            >
+              <span class="cart-info_icon mr-lg-3">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+              <p class="mb-0 text-capitalize">
+                <span id="item-count">2</span>
+                items - $
+                <span class="item-total">12.33</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
     <!-- jquery -->
     <script src="./js/jquery-3.4.1.min.js"></script>
     <!-- Bootstrap -->
