@@ -1,7 +1,7 @@
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .navbar-toggler {
   outline: none !important;
@@ -13,65 +13,88 @@ body {
 }
 
 #header img {
-    width: 150px;
-    height: 100px;
+  width: 150px;
+  height: 100px;
 }
 
 .nav-link {
-    color: rgb(121, 47, 69);
-    transition: all 1s ease-in-out;
-    font-weight: bold;
-    font-size: 1.5rem;
+  color: rgb(121, 47, 69);
+  transition: all 1s ease-in-out;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .nav-link:hover {
-    color: rgb(10, 10, 10);
+  color: rgb(10, 10, 10);
 }
 
 .cart-info_icon {
-    color: rgb(121, 47, 69);
-    cursor: pointer;
+  color: rgb(121, 47, 69);
+  cursor: pointer;
 }
 
 .cart-info {
-    border: 0.1rem solid rgb(51, 50, 50);
-    color: rgb(121, 47, 69);
-    padding: 0.5rem 0.6rem;
-    cursor: pointer;
+  border: 0.1rem solid rgb(51, 50, 50);
+  color: rgb(121, 47, 69);
+  padding: 0.5rem 0.6rem;
+  cursor: pointer;
 }
 
 .cart-info:hover {
-    border: none;
-    background: rgb(121, 47, 69);
-    color: #ffffff;
-    cursor: pointer;
+  border: none;
+  background: rgb(121, 47, 69);
+  color: #ffffff;
+  cursor: pointer;
 }
 
-.cart-info:hover .cart-info_icon { 
-    color: #ffffff;
+.cart-info:hover .cart-info_icon {
+  color: #ffffff;
 }
 
 /* banner */
 .max-height {
-    min-height: 100vh;
-    background: url("https://res.cloudinary.com/elijjaaahhhh/image/upload/v1571835569/headerBcg_gttfnn.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  min-height: 100vh;
+  background: url("https://res.cloudinary.com/elijjaaahhhh/image/upload/v1571835569/headerBcg_gttfnn.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.banner h1, .banner a {
-    color: rgb(121, 47, 69);
+.banner h1,
+.banner a {
+  color: rgb(121, 47, 69);
 }
 
 /* about section */
 .banner-title {
-    color: rgb(121, 47, 69);
+  color: rgb(121, 47, 69);
 }
 @media (max-width: 767px) {
+  .center {
+    text-align: center;
+  }
+}
 
-   .center {
-        text-align: center;
-    }
+/* store  section*/
+.search-box {
+    background: rgb(121, 47, 69);
+}
+
+.store {
+    background: rgb(244, 244, 245);
+}
+
+.single-item {
+    transition: all 0.3 linear;
+}
+
+.single-item:hover {
+    box-shadow: 0 10px 15px rgb(0, 0, 0);
+}
+
+/* services */
+#services {
+    min-height: 40vh;
+    background: white;
 }

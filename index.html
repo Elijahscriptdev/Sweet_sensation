@@ -96,19 +96,247 @@
     <section class="about py-5" id="about">
       <div class="container">
         <div class="row">
-        <div class="col-10 mx-auto col-md-6 my-5 center">
-          <h1 class="text-capitalize text-secondary">about <strong class="banner-title">us</strong></h1>
-          <p class="my-4 text-muted ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto impedit officia totam nemo quasi vero mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sint harum dignissimos magnam labore quam sapiente iure corrupti, similique ea natus sed facilis adipisci accusamus totam rem nobis, est esse. minus soluta qui possimus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo laborum blanditiis labore. Quod, rem itaque!</p>
-          <a href="" class="btn btn-outline-secondary text-uppercase">Explore</a>
-        </div>
-        <div class="col-10 mx-auto col-md-6 my-5 align-self-center">
-          <div class="about-img_container">
-            <img class="img-fluid" src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1571832973/pexels-bg_rsqw1d.jpg" alt="about-img">
+          <div class="col-10 mx-auto col-md-6 my-5 center">
+            <h1 class="text-capitalize text-secondary">
+              about <strong class="banner-title">us</strong>
+            </h1>
+            <p class="my-4 text-muted ">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Architecto impedit officia totam nemo quasi vero mollitia. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Optio sint
+              harum dignissimos magnam labore quam sapiente iure corrupti,
+              similique ea natus sed facilis adipisci accusamus totam rem nobis,
+              est esse. minus soluta qui possimus! Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Quo laborum blanditiis labore. Quod,
+              rem itaque!
+            </p>
+            <a href="" class="btn btn-outline-secondary text-uppercase"
+              >Explore</a
+            >
           </div>
-        </div>
+          <div class="col-10 mx-auto col-md-6 my-5 align-self-center">
+            <div class="about-img_container">
+              <img
+                class="img-fluid"
+                src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1571832973/pexels-bg_rsqw1d.jpg"
+                alt="about-img"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
+
+    <!-- our store section -->
+    <section id="store" class="store" py-5>
+      <div class="container">
+        <!--  store title -->
+        <div class="row">
+          <div class="col-10 mx-auto col-sm-6 text-center">
+            <h1 class="text-capitalize text-secondary">
+              our <strong class="banner-title">Store</strong>
+            </h1>
+          </div>
+        </div>
+        <!-- store buttons -->
+        <div class="row">
+          <div
+            class="col-lg-8 mx-auto d-flex justify-content-around sortBtn flex-wrap"
+          >
+            <a
+              href=""
+              class="btn btn-outline-secondary text-uppercase fliter-btn m-2"
+              data-filter="all"
+              >all</a
+            >
+            <a
+              href=""
+              class="btn btn-outline-secondary text-uppercase fliter-btn m-2"
+              data-filter="all"
+              >cakes</a
+            >
+            <a
+              href=""
+              class="btn btn-outline-secondary text-uppercase fliter-btn m-2"
+              data-filter="all"
+              >cupcakes</a
+            >
+            <a
+              href=""
+              class="btn btn-outline-secondary text-uppercase fliter-btn m-2"
+              data-filter="all"
+              >sweets</a
+            >
+            <a
+              href=""
+              class="btn btn-outline-secondary text-uppercase fliter-btn m-2"
+              data-filter="all"
+              >doughnuts</a
+            >
+            <a
+              href=""
+              class="btn btn-outline-secondary text-uppercase fliter-btn m-2"
+              data-filter="all"
+              >meatpie</a
+            >
+          </div>
+        </div>
+        <!-- search -->
+        <div class="row">
+          <div class="col mx-auto col-md-6">
+            <form>
+              <div class="input-group mb-3">
+                <!-- placing search icon -->
+                <div class="input-group-prepend">
+                  <span class="input-group-text search-box" id="search-icon">
+                    <i class="fas fa-search text-white"></i>
+                  </span>
+                </div>
+                <!-- input -->
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="item..."
+                  id="search-item"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- store items -->
+        <div class="row store-items" id="store-items">
+
+          <div class="col-md-6 col-lg-4 col-sm-12 mx-auto my-3 store-item sweets">
+            <div class="card single-item">
+              <div class="img-container">
+                <img src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1571833325/pexels-photo-1595494_fg3h4p.jpg" class="img-fluid card-img-top store-img" alt="">
+                <span class="store-icon-item">
+                  <i class="fas fa-shopping-cart"></i>
+                </span>
+              </div>
+              <div class="card-body">
+                <div class="card-text d-flex justify-content-between text-capitalize">
+                  <h5 id="store-item-name">sweet</h5>
+                  <h5 class="store-item-name-value">$ <strong id="store-item-price" class="font-weight-bold">10</strong></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-sm-12 mx-auto my-3 store-item sweets">
+            <div class="card single-item">
+              <div class="img-container">
+                <img src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1571850134/pexels-photo-433527_xrrdtj.jpg" class="img-fluid card-img-top store-img" alt="">
+                <span class="store-icon-item">
+                  <i class="fas fa-shopping-cart"></i>
+                </span>
+              </div>
+              <div class="card-body">
+                <div class="card-text d-flex justify-content-between text-capitalize">
+                  <h5 id="store-item-name">sweet</h5>
+                  <h5 class="store-item-name-value">$ <strong id="store-item-price" class="font-weight-bold">10</strong></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-sm-12 mx-auto my-3 store-item sweets">
+            <div class="card single-item">
+              <div class="img-container">
+                <img src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1571850134/pexels-photo-433527_xrrdtj.jpg" class="img-fluid card-img-top store-img" alt="">
+                <span class="store-icon-item">
+                  <i class="fas fa-shopping-cart"></i>
+                </span>
+              </div>
+              <div class="card-body">
+                <div class="card-text d-flex justify-content-between text-capitalize">
+                  <h5 id="store-item-name">sweet</h5>
+                  <h5 class="store-item-name-value">$ <strong id="store-item-price" class="font-weight-bold">10</strong></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-sm-12 mx-auto my-3 store-item sweets">
+            <div class="card single-item">
+              <div class="img-container">
+                <img src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1571850134/pexels-photo-433527_xrrdtj.jpg" class="img-fluid card-img-top store-img" alt="">
+                <span class="store-icon-item">
+                  <i class="fas fa-shopping-cart"></i>
+                </span>
+              </div>
+              <div class="card-body">
+                <div class="card-text d-flex justify-content-between text-capitalize">
+                  <h5 id="store-item-name">sweet</h5>
+                  <h5 class="store-item-name-value">$ <strong id="store-item-price" class="font-weight-bold">10</strong></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class=" col-md-6 col-lg-4 col-sm-12 mx-auto my-3 store-item sweets">
+            <div class="card single-item">
+              <div class="img-container">
+                <img src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1571850134/pexels-photo-433527_xrrdtj.jpg" class="img-fluid card-img-top store-img" alt="">
+                <span class="store-icon-item">
+                  <i class="fas fa-shopping-cart"></i>
+                </span>
+              </div>
+              <div class="card-body">
+                <div class="card-text d-flex justify-content-between text-capitalize">
+                  <h5 id="store-item-name">sweet</h5>
+                  <h5 class="store-item-name-value">$ <strong id="store-item-price" class="font-weight-bold">10</strong></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class=" col-md-6 col-lg-4 col-sm-12 mx-auto my-3 store-item sweets">
+            <div class="card single-item">
+              <div class="img-container">
+                <img src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1571850134/pexels-photo-433527_xrrdtj.jpg" class="img-fluid card-img-top store-img" alt="">
+                <span class="store-icon-item">
+                  <i class="fas fa-shopping-cart"></i>
+                </span>
+              </div>
+              <div class="card-body">
+                <div class="card-text d-flex justify-content-between text-capitalize">
+                  <h5 id="store-item-name">sweet</h5>
+                  <h5 class="store-item-name-value">$ <strong id="store-item-price" class="font-weight-bold">10</strong></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- services -->
+    <section class="services py-5" id="services">
+      <div class="container text-muted">
+        <h1 class="text-capitalize text-secondary text-center">
+            <strong class="banner-title">Services</strong>
+          </h1>
+        <div class="row">
+          
+          <div class="col-sm-12 mx-auto col-md-4  my-2 ">
+            <h3>Home Delivery</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, ullam incidunt consectetur, reiciendis quasi quae atque ipsum, repellendus fuga omnis laudantium enim reprehenderit aut voluptatum ipsam laboriosam. Provident fugit quo cupiditate exercitationem recusandae dicta, blanditiis impedit veritatis. Aut, provident temporibus?</p>
+          </div>
+          <div class="col-sm-12 mx-auto col-md-4  my-2 ">
+            <h3>Wedding Events</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, consequatur obcaecati inventore iusto sint saepe aliquam necessitatibus et culpa quibusdam ipsam eum pariatur quos officia neque alias expedita debitis ut. Explicabo repellat voluptatibus excepturi soluta reiciendis? Provident deleniti harum asperiores.</p>
+          </div>
+          <div class="col-sm-12 mx-auto col-md-4  my-2 ">
+            <h3>Home Delivery</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem consequatur eum quae magnam esse possimus sequi repellendus saepe eligendi omnis hic exercitationem dignissimos adipisci perspiciatis, asperiores corporis, pariatur, velit molestiae! Fugiat eaque molestiae vel modi error iste recusandae velit mollitia?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- jquery -->
     <script src="./js/jquery-3.4.1.min.js"></script>
     <!-- Bootstrap -->
