@@ -14,6 +14,7 @@ body {
 
 #header img {
     width: 150px;
+    height: 100px;
 }
 
 .nav-link {
@@ -48,4 +49,29 @@ body {
 
 .cart-info:hover .cart-info_icon { 
     color: #ffffff;
+}
+
+/* banner */
+.max-height {
+    min-height: 100vh;
+    background: url("https://res.cloudinary.com/elijjaaahhhh/image/upload/v1571835569/headerBcg_gttfnn.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.banner h1, .banner a {
+    color: rgb(121, 47, 69);
+}
+
+/* about section */
+.banner-title {
+    color: rgb(121, 47, 69);
+}
+@media (max-width: 767px) {
+
+   .center {
+        text-align: center;
+    }
 }
